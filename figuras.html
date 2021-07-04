@@ -7,7 +7,46 @@
   <title>Figuras Geometricas | Curso Practico de JS</title>
 </head>
 <body>
-  <h1>figuras geométricas</h1>
+    <header>
+      <h1>Figuras Geométricas</h1>
+      <p>Este es el primer taller del curso práctico de JavaScript</p>
+    </header>
+    <main>
+      <section>
+        <h2>Cuadrado</h2>
+        <form>
+          <label for="InputCuadrado">¿Cuanto miden los lados de tu cuadrado?</label>
+          <input id="InputCuadrado" type="number">
+          <button type="button" onclick="calcularPerimetroCuadrado()">Calcular Perimetro</button>
+          <button type="button" onclick="calcularAreaCuadrado()">Calcular Area</button>
+        </form>
+      </section>
+      <section>
+        <h2>Triangulo</h2>
+        <form>
+          <label for="InputTriangulo">¿Cuanto miden los lados de tu triangulo?</label>
+          <input id="lado1Triangulo" type="number">
+          <input id="lado2Triangulo" type="number">
+          <label for="baseTriangulo">¿Cuanto mide la base de tu triangulo?</label>
+          <input id="baseTriangulo" type="number">
+          <label for="alturaTriangulo">¿Cuanto mide la altura de tu triangulo?</label>
+          <input id="alturaTriangulo" type="number">
+          <button type="button" onclick="calcularPerimetroTriangulo()">Calcular Perimetro</button>
+          <button type="button" onclick="calcularAreaTriangulo()">Calcular Area</button>
+          <button type="button" onclick="calcularAlturaTriangulo()">Calcular Altura</button>
+        </form>
+      </section>
+      <section>
+        <h2>Cuadrado</h2>
+        <form>
+          <label for="">¿Cuanto miden el radio de tu circulo?</label>
+          <input id="InputCirculo" type="number">
+          <button type="button" onclick="calcularPerimetroCirculo()">Calcular Perimetro</button>
+          <button type="button" onclick="calcularAreaCirculo()">Calcular Area</button>
+        </form>
+      </section>
+    </main>
+  
   <script src="./figuras.js"></script>
 </body>
 </html>
